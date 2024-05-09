@@ -1,0 +1,9 @@
+num1=int(input("ingrese un numero: "))
+if num1>=10 and num1<100:
+    print("tiene dos digitos: ")
+if num1>=1 and num1<10:
+    print("tiene un digito: ")
+if num1>=100 and num1<1000:
+    print("tiene tres digitos: ")
+if num1>=1000 and num1<10000:
+    print("tiene cuatro digitos: ")
